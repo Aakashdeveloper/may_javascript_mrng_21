@@ -5,16 +5,16 @@ Ecma 7
 
 
 > DataTypes
-////////////////
 > variable
 > Operations
+> String literals
+////////////////
 > String
 > Math
-> String literals
+> github
 > localstorage
 > sessionStorage
 > cookies
-> github
 > let, const
 > condition
 > if else
