@@ -113,3 +113,31 @@ name.replace(/ /g,'')
 var name = "  Bhumika  .  "
 name.replace(/ /g,'-')
 "--Bhumika--.--"
+
+
+var url = "https://github.com/Aakashdeveloper/may_react_mrng_21";
+undefined
+url.split('/')
+(5) ["https:", "", "github.com", "Aakashdeveloper", "may_react_mrng_21"]
+
+var out = url.split('/')
+out[0]
+"https:"
+
+out[out.length-1]
+"may_react_mrng_21"
+
+var a = "javascript i am learning javascript"
+undefined
+a.split(' ')
+(5) ["javascript", "i", "am", "learning", "javascript"]
+
+var a = "javascript"
+a.split('')
+(10) ["j", "a", "v", "a", "s", "c", "r", "i", "p", "t"]
+
+var out = ["j", "a", "v", "a", "s", "c", "r", "i", "p", "t"]
+out.toString()
+"j,a,v,a,s,c,r,i,p,t"
+out.toString().replace(/,/g,'')
+"javascript"

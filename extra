@@ -8,18 +8,19 @@ Ecma 7
 > variable
 > Operations
 > String literals
-////////////////
 > String
 > Math
-> github
 > localstorage
 > sessionStorage
 > cookies
+////////////////
 > let, const
 > condition
 > if else
 > ternery Operations
 > switch
+
+> github
 > Date
 > regex
 > array
