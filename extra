@@ -13,21 +13,20 @@ Ecma 7
 > localstorage
 > sessionStorage
 > cookies
-////////////////
 > let, const
 > condition
 > if else
 > ternery Operations
-> switch
-
-> github
 > Date
-> regex
+////////////////
+> switch
 > array
 > Functions
 > loops
 > Es6
     > maps,filter
+> regex
+> github
 > object 
 > JSON
 > Es6
