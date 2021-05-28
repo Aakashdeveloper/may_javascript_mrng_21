@@ -119,3 +119,65 @@ var b = [1,2,3]
 undefined
 a.concat(b)
 (7) ["a", "b", "c", 1, 1, 2, 3]
+
+var city = ["London", "Mumbai", "Nice", "Edinberg", "Amsterdam", "Dubai"]
+
+city.indexOf('Delhi')
+-1
+city.indexOf('Mumbai')
+1
+city.indexOf('London')
+0
+city.indexOf('Amsterdam')
+4
+city.indexOf('Venice')
+-1
+
+var a = "hii"
+var b = ['hii']
+Array.isArray(a)
+false
+Array.isArray(b)
+true
+
+var city = ["London", "Mumbai", "Nice", "Edinberg", "Amsterdam", "Dubai"]
+city.sort()
+(6) ["Amsterdam", "Dubai", "Edinberg", "London", "Mumbai", "Nice"]
+
+var city = ["London",3, "Mumbai",false,'agra',"Nice", 1,2,true,'delhi', "Dubai","paris"]
+undefined
+city.sort()
+(12) [1, 2, 3, "Dubai", "London", "Mumbai", "Nice", "agra", "delhi", false, "paris", true]
+city
+(12) [1, 2, 3, "Dubai", "London", "Mumbai", "Nice", "agra", "delhi", false, "paris", true]
+city.reverse()
+(12) [true, "paris", false, "delhi", "agra", "Nice", "Mumbai", "London", "Dubai", 3, 2, 1]
+var city = ["London",3, "Mumbai",false,'agra',"Nice", 1,2,true,'delhi', "Dubai","paris"]
+undefined
+city.reverse()
+(12) ["paris", "Dubai", "delhi", true, 2, 1, "Nice", "agra", false, "Mumbai", 3, "London"]
+
+var myarray = ["Amsterdam", "Dubai",['Red','Yellow',["Bmw","Audi","Skoda"],'Green','Orange'], "Edinberg", "London", "Mumbai"]
+
+var myarray = ["Amsterdam", "Dubai",['Red','Yellow',["Bmw","Audi","Skoda"],'Green','Orange'], "Edinberg", "London", "Mumbai"]
+undefined
+myarray[0]
+"Amsterdam"
+myarray[2]
+(5) ["Red", "Yellow", Array(3), "Green", "Orange"]
+myarray[2][1]
+"Yellow"
+myarray[2][2]
+(3) ["Bmw", "Audi", "Skoda"]
+myarray[2][2][1]
+"Audi"
+myarray[1][1]
+"u"
+
+
+var myarray = ["Amsterdam", "Dubai",['Red','Yellow',["Bmw","Audi","Skoda"],'Green','Orange'], "Edinberg", "London", "Mumbai"]
+undefined
+myarray.flat()
+(10) ["Amsterdam", "Dubai", "Red", "Yellow", Array(3), "Green", "Orange", "Edinberg", "London", "Mumbai"]
+myarray.flat(2)
+(12) ["Amsterdam", "Dubai", "Red", "Yellow", "Bmw", "Audi", "Skoda", "Green", "Orange", "Edinberg", "London", "Mumbai"]

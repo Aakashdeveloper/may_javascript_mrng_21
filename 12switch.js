@@ -9,7 +9,7 @@ switch(name){
         console.log(`hi case 1 ${name}`) 
         break;
     case 'Eva':
-        console.log(`hi case 2 ${Eva}`) 
+        console.log(`hi case 2 ${name}`) 
         break;
     default:
         console.log(`hi default case`) 

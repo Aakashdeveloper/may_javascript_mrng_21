@@ -18,12 +18,12 @@ Ecma 7
 > ternery Operations
 > Date
 > switch
-////////////////
 > array
-> Functions
+////////////////
 > loops
 > Es6
     > maps,filter
+> Functions
 > regex
 > github
 > object 
@@ -58,3 +58,13 @@ Ecma 7
 > fabonicci
 > factorial
 > palindrome
+
+/*
+var a = 10
+for(var i=0;i<5;i++){
+    console.log(a+i)
+}
+let a = 10
+for(var i=0;i<5;i++){
+    console.log(a+i)
+}*/
