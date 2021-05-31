@@ -19,13 +19,15 @@ Ecma 7
 > Date
 > switch
 > array
-////////////////
 > loops
+> Rest
+> Functions
+////////////////
 > Es6
     > maps,filter
-> Functions
 > regex
 > github
+
 > object 
 > JSON
 > Es6
@@ -68,3 +70,15 @@ let a = 10
 for(var i=0;i<5;i++){
     console.log(a+i)
 }*/
+
+var data;
+for(i=0;i<5;i++){
+    data += `${1},`
+}
+console.log(data)
+
+var city = ["London","Delhi","NewYork","Paris"]
+var out=""
+for(i=0;i<city.length;i++){
+    out += `${city[i]},`
+}
