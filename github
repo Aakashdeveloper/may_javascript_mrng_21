@@ -20,5 +20,6 @@ git clone https://github.com/Aakashdeveloper/testjavascript
 
 
 git checkout -b branchname
+git push origin branchname
 
 git pull > to pull code of latest branch
