@@ -26,6 +26,8 @@ Ecma 7
     > maps,filter
 > regex
 > github
+> Clousers
+> Hoisting
 ////////////////
 > object 
 > JSON
@@ -38,8 +40,6 @@ Ecma 7
 > Prototypes
 > Es6
     > classes
-> Clousers
-> Hoisting
 > DoM
 > Calc
 > currenyConvertor
