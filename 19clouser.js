@@ -41,3 +41,21 @@ for(i=0;i<5;i++){
 
 console.log("a outside>>>>>>",a)
 console.log("b>>>",b)
+
+
+function mul(a,b,c){
+    return a*b*c
+}
+
+mul(1,2,3)
+
+
+function mul(a){
+    return function(b){
+        return function(c){
+            return a*b*c
+        }
+    }
+}
+
+mul(1)(2)(3)

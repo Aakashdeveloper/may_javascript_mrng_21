@@ -23,3 +23,8 @@ git checkout -b branchname
 git push origin branchname
 
 git pull > to pull code of latest branch
+
+
+
+git global config --username 'aakashdeveloper'
+git global config --email 'ahanda205@gmail.com'

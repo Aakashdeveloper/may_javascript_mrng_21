@@ -1,0 +1,28 @@
+var movies  = [
+    {
+        name:'Avengers',
+        rating:4.4,
+        language:'English',
+        starcast:['Tony Stark','Abc'],
+        timing:['1:00','2:00']
+    },
+    {
+        name:'Jab We Met',
+        rating:4.8,
+        language:'Hindi',
+        starcast:['Sahid', 'Karrena'],
+        city:'delhi'
+    } 
+]
+
+
+from this array 
+pick all the unqiue key name
+
+
+[name,rating,language,starcast,timing,city]
+
+loop
+array
+indexof
+ifelse
