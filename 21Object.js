@@ -6,6 +6,7 @@ var moviename1 = "Jab we Met"
 var movierating1 = 4.8
 var movielang1 = "Hindi"
 
+//literal 
 var movies = {
     name:'Avengers',
     rating:4.4,
@@ -145,3 +146,7 @@ dbQuery.find('employee')
 "Select * from employee"
 dbQuery.insert('Employee',{name:'John',city:'Delhi'})
 "insert into Employee name,city values (John, Delhi)"
+
+///constructor
+var movie = new Object();
+movies.name = "Death Race"

@@ -29,8 +29,6 @@ Ecma 7
 > Clousers
 > Hoisting
 > spread
-////////////////
-> object 
 > JSON
 > Es6
     > Transpile
@@ -38,6 +36,8 @@ Ecma 7
 > package.JSON
 > npm
 > this 
+> object 
+////////////////
 > Prototypes
 > Es6
     > classes
@@ -82,3 +82,12 @@ var out=""
 for(i=0;i<city.length;i++){
     out += `${city[i]},`
 }
+
+////generate package.JSON/////
+* nodeJs must be install in system
+> open cmd 
+> npm init -y 
+
+///how to install package 
+> open cmd 
+> npm i @babel/core @babel/preset-env @babel/register

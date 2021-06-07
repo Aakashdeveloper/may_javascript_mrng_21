@@ -77,7 +77,7 @@ city.slice(1,4)
 
 var city = "amsTeRDam" 
 undefined
-city.slice(-1)
+city.slice(-1) 
 "m"
 city.slice(-2)
 "am"
@@ -87,8 +87,10 @@ city.slice(1,-3)
 "msTeR"
 city.slice(-3,1)
 ""
+
 city.slice(-4,-1)
 "RDa"
+
 city.slice(-1,-4)
 ""
 

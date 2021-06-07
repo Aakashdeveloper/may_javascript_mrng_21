@@ -19,10 +19,10 @@ var movies  = [
 from this array 
 pick all the unqiue key name
 
-
-[name,rating,language,starcast,timing,city]
+output > [name,rating,language,starcast,timing,city]
 
 loop
 array
 indexof
 ifelse
+
