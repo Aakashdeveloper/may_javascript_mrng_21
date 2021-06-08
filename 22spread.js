@@ -42,7 +42,6 @@ function add(...args){
 }
 
 
-
 function add(...args){
     let sum = 0
     for(data of args){
@@ -62,3 +61,5 @@ var cars = ['Kia','BMW','Volvo']
 var car2= ['Sokda','Merc','Audi','Nexa']
 output = ['Sokda','Merc',...cars,'Audi','Nexa']
 (7) ["Sokda", "Merc", "Kia", "BMW", "Volvo", "Audi", "Nexa"]
+
+car2 =['Sokda','Merc',cars[1],'Audi','Nexa']

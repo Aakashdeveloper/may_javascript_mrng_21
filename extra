@@ -37,12 +37,12 @@ Ecma 7
 > npm
 > this 
 > object 
-////////////////
 > Prototypes
 > Es6
     > classes
 > DoM
 > Calc
+////////////////
 > currenyConvertor
 > promis
 > async await
@@ -51,8 +51,12 @@ Ecma 7
 > Form validation
 > Event
 > Dynamic DropDown
+> dark/light mode
 > Progress bar
 > Call/Apply
+> set interval
+> set timeout
+> debouncing
 > Baisc Jquery
 > Weather application
 > ajax
@@ -91,3 +95,36 @@ for(i=0;i<city.length;i++){
 ///how to install package 
 > open cmd 
 > npm i @babel/core @babel/preset-env @babel/register
+
+
+function addData(att_key,att_value){
+    var data = {
+        "attributes":[
+            {"name":"test1",value:"Aakash"},
+            {"name":"test2",value:"Bhumika"}
+        ]
+    }
+
+    for (mydata of data.attributes){
+        if(mydata.name===att_key){
+            mydata.value=att_value;
+            break;
+        }else{
+            data.attributes.push({"name":att_key,"value":att_value})
+            break;
+        }
+    }
+
+    return data
+}
+
+///////////
+var 
+if
+loops
+function
+array
+object
+///////////////
+
+

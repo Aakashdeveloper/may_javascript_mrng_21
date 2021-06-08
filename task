@@ -26,3 +26,14 @@ array
 indexof
 ifelse
 
+///
+var out = []
+for(){
+    forin(
+        if(value exist in the array (indexOf)){
+            // do not add
+        }else{
+            out.push()
+        }
+    )
+}

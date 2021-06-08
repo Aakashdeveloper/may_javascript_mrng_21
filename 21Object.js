@@ -150,3 +150,37 @@ dbQuery.insert('Employee',{name:'John',city:'Delhi'})
 ///constructor
 var movie = new Object();
 movies.name = "Death Race"
+
+
+var movies = {
+    name:'Avengers',
+    rating:4.4,
+    language:'English'
+}
+
+Object.freeze(movies)
+{name: "Avengers", rating: 4.4, language: "English"}
+movies.name
+"Avengers"
+movies.rating=4.6
+4.6
+movies
+{name: "Avengers", rating: 4.4, language: "English"}
+
+
+var movies = {
+    name:'Avengers',
+    rating:4.4,
+    language:'English'
+}
+undefined
+Object.seal(movies)
+{name: "Avengers", rating: 4.4, language: "English"}
+movies.rating = 4.6
+4.6
+movies
+{name: "Avengers", rating: 4.6, language: "English"}
+delete movies.language
+false
+movies
+{name: "Avengers", rating: 4.6, language: "English"}

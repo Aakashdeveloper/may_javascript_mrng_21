@@ -54,3 +54,4 @@ class language1{
 var French = new language1('French','France')
 French
 language1 {name: "French", country: "France", greet: ƒ}
+
