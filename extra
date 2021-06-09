@@ -42,16 +42,16 @@ Ecma 7
     > classes
 > DoM
 > Calc
-////////////////
 > currenyConvertor
 > promis
 > async await
 > Geolocation
 > screen
+////////////////
 > Form validation
 > Event
-> Dynamic DropDown
 > dark/light mode
+> Dynamic DropDown
 > Progress bar
 > Call/Apply
 > set interval
@@ -126,5 +126,4 @@ function
 array
 object
 ///////////////
-
 

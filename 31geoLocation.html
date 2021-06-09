@@ -1,0 +1,34 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <button onclick="geolocation()">
+            Get Geo
+        </button>
+        <p id ="out"></p>
+        <p id="add"></p>
+        <script>
+            var x = document.getElementById('out');
+            var y = document.getElementById('add');
+            function geolocation(){
+                if(navigator.geolocation){
+                    navigator.geolocation.getCurrentPosition(showPosition)
+                }else{
+                    x.innerText = "Geo Not Supported"
+                }
+            }
+
+            function showPosition(data){
+                console.log(data)
+                x.innerText=`Latitude is ${data.coords.latitude} and Longitude is ${data.coords.longitude}`
+
+                fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${data.coords.latitude},${data.coords.longitude}&key=`, {method:'GET'})
+                .then((res) => res.json())
+                .then((data) => {
+                    y.innerText=data.results[1].formatted_address
+                })
+            }
+        </script>
+    </body>
+</html>
