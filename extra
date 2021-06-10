@@ -47,10 +47,10 @@ Ecma 7
 > async await
 > Geolocation
 > screen
-////////////////
 > Form validation
 > Event
 > dark/light mode
+////////////////
 > Dynamic DropDown
 > Progress bar
 > Call/Apply
@@ -127,3 +127,11 @@ array
 object
 ///////////////
 
+/////dummy api//////
+>>>>>>One Time<<<<<<<<
+>open cmd as admin
+>npm i -g json-server
+
+
+>>from the folder where you have json file
+> json-server --watch data.json

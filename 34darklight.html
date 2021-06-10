@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: white;
+                color:black
+            }
+            .mydark{
+                background-color: black;
+                color:white
+            }
+        </style>
+        <script>
+            function changeMode(){
+                var mybody = document.body;
+                mybody.classList.toggle('mydark')
+
+                var headingText = document.getElementsByTagName('h2')[0];
+                if(headingText.innerText=="Developer Funnel Light mode"){
+                    headingText.innerText="Developer Funnel Dark mode"
+                }else{
+                    headingText.innerText="Developer Funnel Light mode"
+                }
+            }
+        </script>
+
+    </head>
+    <body>
+        <h2>Developer Funnel Light mode</h2>
+        <p>We are working on dark and light mode</p>
+        <button onclick="changeMode()">Change Mode</button>
+    </body>
+</html>
