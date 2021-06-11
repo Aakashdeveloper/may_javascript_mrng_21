@@ -50,14 +50,15 @@ Ecma 7
 > Form validation
 > Event
 > dark/light mode
-////////////////
-> Dynamic DropDown
-> Progress bar
-> Call/Apply
 > set interval
 > set timeout
+> Dynamic DropDown
 > debouncing
+////////////////
+> Progress bar
+> Call/Apply
 > Baisc Jquery
+
 > Weather application
 > ajax
 > DataTables
